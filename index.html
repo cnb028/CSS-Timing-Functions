@@ -49,6 +49,46 @@
                 cursor:pointer;
                 background-color: #00FF00;
             }
+            #btn2 {
+                                width: 55px;
+                height: 55px;
+                display: inline-block;
+                background-color: cornflowerblue;
+
+                transition: all 0.1s ease-in-out;
+                transform: translate3D(0,0,0);
+            }
+            #btn2:hover{
+                cursor: pointer;
+                filter: drop-shadow(8px 8px 5px gray);
+            }
+            #btn3 {
+                width: 55px;
+                height: 55px;
+                display: inline-block;
+                background-color: gray;
+
+                transition: all 0.1s ease-in-out;
+                transform: translate3D(0,0,0);
+            }
+            #btn3:hover {
+                cursor: pointer;
+                filter: drop-shadow(8px 8px 5px cornflowerblue);
+            }
+            #btn4 {
+                width: 55px;
+                height: 55px;
+                display: inline-block;
+                background-color: #00FF00;
+
+                transition: all 0.1s ease-in-out;
+                transform: translate3D(0,0,0);
+            }
+            #btn4:hover {
+                cursor: pointer;
+                background-color: cornflowerblue;
+            }
+
         </style>
     </head>
 
@@ -60,6 +100,8 @@
             <div class="transitions">
                 <div id="btn1"></div>
                 <div id="btn2"></div>
+                <div id="btn3"></div>
+                <div id="btn4"></div>
             </div>
             <div class="separator"></div>
             <h2>Movement Effects</h2>
